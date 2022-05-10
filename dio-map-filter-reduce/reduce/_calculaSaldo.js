@@ -38,7 +38,7 @@ function calculaSaldo (saldoDisponivel, lista){
 
 console.log(calculaSaldo(saldoDisponivel, lista));
 
-// testando outra forma.
+// testando outra forma --> arrow function
 
 function calculaSaldo2 (saldoDisponivel, lista){
     return lista.reduce((prev,current) => prev-current.preco ,saldoDisponivel);

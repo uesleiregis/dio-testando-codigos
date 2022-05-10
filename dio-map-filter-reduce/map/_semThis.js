@@ -1,7 +1,6 @@
 // Função sem utilizar o 'this'
 
 function mapSemThis(arr){
-
     return arr.map((item) => item * 2)
 }
 

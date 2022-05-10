@@ -21,6 +21,8 @@ function filtraPares2(arr){
 
 callback = function (item){
     if(item % 2 == 0) return true;
+
+    // ou return item % 2 == 0;
 }
 
 console.log(filtraPares2(nums));
