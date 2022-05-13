@@ -6,8 +6,6 @@ let totalDeDias = 400; // 800 e 30
 
 let qtdAnos,qtdMeses;
 
-
-
 qtdAnos = parseInt(totalDeDias/365);
 
 totalDeDias = totalDeDias % 365;
